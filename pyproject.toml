@@ -11,13 +11,9 @@ classifiers = [
     "Programming Language :: Python :: Implementation :: PyPy",
 ]
 dynamic = ["version"]
-dependencies = [
-    "maturin>=1.15.0",
-]
 
 [tool.maturin]
 module-name = "test_joule_profiler._core"
-compatibility = "linux"
 
 [tool.uv]
 # Rebuild the Rust extension whenever the Rust sources or manifest change.
