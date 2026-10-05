@@ -1,0 +1,12 @@
+[package]
+name = "test_joule_profiler"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "_core"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.29.0"
+rand = "0.10.3"
